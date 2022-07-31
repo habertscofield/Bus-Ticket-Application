@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_view_bus.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_view_bus.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_notification.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\ticketshown.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\ticketshown.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_seat.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_seat.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\reset_pass.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\reset_pass.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_bus.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\add_bus.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_tickets.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\list_tickets.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_row.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\custom_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_print.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_print.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_adminlogin.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_adminlogin.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_confirm_ticket.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_confirm_ticket.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_detail.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register_user.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_register_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ticket_details.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_ticket_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_bus.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_bus.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\header.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\header.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_grid.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\custom_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\update_dialog.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\update_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_seat_choose.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_seat_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_buslist.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_buslist.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dropdown_item.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_user_dashboard.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_user_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\update.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\update.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recyclerview_buses.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\recyclerview_buses.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_cancel.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_cancel.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login_user.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_login_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_admin.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_bus_info.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_bus_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_price.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\add_price.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ticket.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_ticket.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_bus.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\list_bus.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_payable.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_payable.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_update__profile.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\fragment_update__profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_appbar.xml",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\main_appbar.xml"
+    }
+]

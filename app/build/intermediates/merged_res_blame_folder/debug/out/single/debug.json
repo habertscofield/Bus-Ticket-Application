@@ -1,0 +1,1018 @@
+[
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_busnotfound.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\busnotfound.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_register_user.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_register_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_view_bus.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_view_bus.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ticket_image.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ticket_image.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_lock.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_photo.jpeg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\photo.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_app_logo.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\app_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_filter.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_filter.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_tick_anim.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\tick_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_background.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_local_phone_24.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_baseline_local_phone_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_email.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\email.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_password.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bus2.jpg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bus2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bus_booking_round_logo.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bus_booking_round_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_camera.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\icon_camera.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_maps.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_alarm_small_icon.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\alarm_small_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_wave.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\wave.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_round_bg.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\round_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_bus_loading.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\bus_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bkash.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bkash.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_destop.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\destop.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_update_dialog.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\update_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_your_seat_img.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\your_seat_img.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bus4.jpg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bus4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_redtransparent.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\redtransparent.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_circle.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\circle.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_room_black_24dp.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_room_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_qrcode.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\qrcode.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bus1.jpg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bus1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_welcomescreen_dashboard_down.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\welcomescreen_dashboard_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_notifications.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_fab_draw.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\fab_draw.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_admin.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_recyclerview_buses.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\recyclerview_buses.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_location.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\location.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_photo_size_select_actual_24.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_baseline_photo_size_select_actual_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_small_icon.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\small_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bus5.jpg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bus5.jpg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_password_24.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_baseline_password_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_search.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\search.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_button_transparent.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\rounded_button_transparent.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_date_range_light_blue_24dp.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_date_range_light_blue_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bus_booking_logo.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bus_booking_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_uploadingarchive.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\uploadingarchive.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_notification.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_shadow.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_leftarrowwhite.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\leftarrowwhite.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_bus.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_bus.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_background2.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\background2.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_edit_24.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_baseline_edit_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bus_appupper.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bus_appupper.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_current_location_vector_icon.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\current_location_vector_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_sms.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\sms.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_activity.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\activity.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_add_price.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\add_price.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bus_image_2.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bus_image_2.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_rates.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\rates.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\menu_menu.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_pdf.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\ic_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_sureka.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\sureka.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_leftarrow.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\leftarrow.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_confirm_ticket.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_confirm_ticket.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_trasnparent.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\trasnparent.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_phone.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_onewoman.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_onewoman.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_parking_checkout.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_parking_checkout.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_check_24.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_baseline_check_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_corner_search.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\rounded_corner_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_seat_booked.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\seat_booked.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_nav_header.jpeg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\nav_header.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_plate_number.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_plate_number.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_booked_img.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\booked_img.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_main_logo.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\main_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash_bg.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\splash_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_payable.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_payable.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bus.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bus.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_back.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\back.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_dashboard.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\dashboard.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_add_photo.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_add_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_phone.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_list_tickets.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\list_tickets.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_border.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_peopleaboutus.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_peopleaboutus.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_calendericon.jpg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\calendericon.jpg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_print.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_print.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_blackplane.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_blackplane.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bus_applower.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bus_applower.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_event.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\event.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_search.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bus_image_1.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bus_image_1.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ascendingbars.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ascendingbars.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\anim_top.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\anim\\top.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_logo_red.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\logo_red.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_home.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_lock_2.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_lock_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_detail.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\detail.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_mcash.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\mcash.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_chat_24.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_baseline_chat_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_driver.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\driver.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_arrow_back_white_24dp.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_arrow_back_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_destopsuva.jpg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\destopsuva.jpg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_setting.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\setting.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bus6.jpg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bus6.jpg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_background14.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\background14.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_spinner.gif.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\spinner.gif"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\menu_loginoptions.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\menu\\loginoptions.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_contact.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\contact.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_textbox.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\textbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_vector.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\vector.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_dropdown_item.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_regi.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\regi.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_gradientbackground.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\gradientbackground.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_available_img.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\available_img.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_logo_wjite.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\logo_wjite.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_menu.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_seat.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\seat.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_update__profile.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\fragment_update__profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon4.jpeg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\icon4.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_large_icon.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\large_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_custom_row.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\custom_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_thushana.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\thushana.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_buslist.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_buslist.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_messagenoti.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_messagenoti.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_notification.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_wheel.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\wheel.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_booking.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_title.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\title.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_large_icon_notify.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\large_icon_notify.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_pers.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\pers.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_more.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\more.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_pic.jpg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\pic.jpg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_wrong_icon.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_wrong_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_upi.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_upi.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_threepersons.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_threepersons.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bus15.jpg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bus15.jpg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_button.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\background_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ticket_details.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_ticket_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_man.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\man.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_logout.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\logout.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_calendar_today_24.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_baseline_calendar_today_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_person.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\person.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn_bg.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\btn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_button_black.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\button_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_plane.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\plane.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_user_dashboard.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_user_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_priya.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\priya.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_button_register.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bg_button_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_mail.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\mail.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_red_back.jpeg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\red_back.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_creditcard.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\creditcard.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_suva.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\suva.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_whitetransparent.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\whitetransparent.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_mpesa.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\mpesa.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_nagad.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\nagad.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login_user.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_login_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_person_outline_white_24dp.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_person_outline_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_earth.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\earth.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_back2.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\back2.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_seat.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_seat.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_admin.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_sutha.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\sutha.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_email_icon.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_email_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_name.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bus_info_background.jpg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bus_info_background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_buttonshape.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\buttonshape.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_toolbar_style.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\toolbar_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_planee.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\planee.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_dashboard_24.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_baseline_dashboard_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_add_bus.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\add_bus.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_icone2.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\icone2.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_logophoto.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\logophoto.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ticket.jpg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ticket.jpg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\anim_anim_splash.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\anim\\anim_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_dubai.jpg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\dubai.jpg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_header.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\header.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_main_appbar.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\main_appbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_reset_pass.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\reset_pass.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bus3.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bus3.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_round_border.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\round_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_bus_image_3.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\bus_image_3.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_offer.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\offer.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\font_poppins_medium.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\font\\poppins_medium.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_whatshot_black_24dp.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_whatshot_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_android.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\android.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ticket.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_ticket.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_bus_info.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_bus_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_family.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_family.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_list_bus.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\list_bus.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_location_on_light_blue_24dp.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_location_on_light_blue_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\menu_map_types.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\menu\\map_types.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cancel.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_cancel.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_tt.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\tt.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_redbusback.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\redbusback.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_placeholder.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\ic_placeholder.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_phone_2.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_phone_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_ticketshown.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\ticketshown.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_adminlogin.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_adminlogin.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_people.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\people.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\menu_nav_menu.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\menu\\nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_rocket.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\rocket.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_help.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\help.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_trasnparentsmall.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\trasnparentsmall.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_button_solid.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\rounded_button_solid.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\raw_map_style.json.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\raw\\map_style.json"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_my_journal_background.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\my_journal_background.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_background3.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\background3.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_receipt.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\receipt.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ghost_app_background.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ghost_app_background.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_welcome.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\welcome.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\font_poppins_bold.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\font\\poppins_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_calendar.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable-v24\\ic_calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_register.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\register.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\anim_bottom.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\anim\\bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_cancel.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_update.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\update.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon3.jpg.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\icon3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\xml_ic_place.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\xml\\ic_place.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_hellotext.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\hellotext.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_login.png.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\login.png"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_tickets.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_tickets.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_custom_grid.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\layout\\custom_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_swap_horiz_white_24dp.xml.flat",
+        "source": "C:\\Users\\YVONNE\\AndroidStudioProjects\\BusTicketApplication\\app\\src\\main\\res\\drawable\\ic_swap_horiz_white_24dp.xml"
+    }
+]

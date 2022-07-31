@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable-v24/bus_loading.xml" value="0.1" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable-v24/button_black.xml" value="0.1" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable-v24/ic_pdf.xml" value="0.22" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable-v24/middile_red.xml" value="0.1215" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable-v24/transparentred.xml" value="0.1215" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/back.xml" value="0.2345" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/back2.xml" value="0.2345" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/background.xml" value="0.2345" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/background14.xml" value="0.2345" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/background_button.xml" value="0.1" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/btn.xml" value="0.125" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/btn_bg.xml" value="0.1645" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/current_location_vector_icon.xml" value="0.2205" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/email.xml" value="0.1" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1325" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/ic_person.xml" value="0.2205" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/ic_room_black_24dp.xml" value="0.2205" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/ic_upi.xml" value="0.1" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/ic_whatshot_black_24dp.xml" value="0.131" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/logophoto.xml" value="0.2345" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/person.xml" value="0.1" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/spinner.xml" value="0.121" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/textbox.xml" value="0.1235" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/wave.xml" value="0.2205" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/drawable/welcomescreen_dashboard_down.xml" value="0.1235" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/font/poppins_bold.xml" value="0.1515625" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_add_bus.xml" value="0.128" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_addbus.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_admin.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_admin_login.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_adminlogin.xml" value="0.2" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_adminlogin2.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_adminsignup.xml" value="0.2" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_booking.xml" value="0.24666666666666667" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_bus.xml" value="0.2" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_bus_info.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_bus_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_buslist.xml" value="0.24666666666666667" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_cancel.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_cancel_ticket.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_confirm.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_confirm_ticket.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_credit.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_custom_grid.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_detail.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_end_point.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_endpoint.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_event.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_finish.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_forget_and_change_password.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_forget_password.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_forgot_password.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_fragment_login.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_fragment_ot_p.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_fragment_register.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_gpsmap.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_list_bus.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_location.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_login_user.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_main2.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_map.xml" value="0.121875" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_map1.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_maps.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_navigation.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_notification.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_offer.xml" value="0.2" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_pay.xml" value="0.2" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_payable.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_payble.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_point.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_print.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_reatrive_map.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_recyclerviewbuses.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_register.xml" value="0.11041666666666666" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_register_user.xml" value="0.176" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_reset_password.xml" value="0.12" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_seat.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_seat_choose.xml" value="0.264" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_seats.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_send_otp.xml" value="0.152" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_setting.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_sign_in.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_sign_in2.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_signup.xml" value="0.264" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_splash.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_start_point.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_startpoint.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_ticket.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_ticket_details.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_user_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_userlogin.xml" value="0.2" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_verify_otp.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_verify_phone.xml" value="0.1" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_view_bus.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_view_pdfactivity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/activity_welcome.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/add_bus.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/add_price.xml" value="0.24666666666666667" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/content_main.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/custom_grid.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/custom_row.xml" value="0.24666666666666667" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/dropdown_item.xml" value="0.24666666666666667" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/fragment_create_account.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/fragment_create_account2.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/fragment_forget_password.xml" value="0.176" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/fragment_home.xml" value="0.24666666666666667" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/fragment_login.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/fragment_map.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/fragment_o_t_p.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/fragment_register.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/header.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/header1.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/list_bus.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/list_tickets.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/main_appbar.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/navheader.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/recyclerview_buses.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/reset_pass.xml" value="0.24666666666666667" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/ticketshown.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/toolbar.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/update.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/layout/update_dialog.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/menu/loginoptions.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/menu/map_types.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/menu/menu.xml" value="0.264" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/menu/nav_menu.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/menu/student_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1215" />
+        <entry key="..\:/Users/YVONNE/AndroidStudioProjects/BusTicketApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1215" />
+        <entry key="..\:/bus app/BusTicketApplication/app/src/main/res/layout/activity_add_bus.xml" value="0.25416666666666665" />
+        <entry key="..\:/bus app/BusTicketApplication/app/src/main/res/layout/activity_dashboard.xml" value="0.25025641025641027" />
+        <entry key="..\:/bus app/BusTicketApplication/app/src/main/res/layout/activity_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/bus app/BusTicketApplication/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

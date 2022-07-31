@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="text_view_busName" type="id" />
+    <item name="text_view_busNumber" type="id" />
+    <item name="text_view_date" type="id" />
+    <item name="text_view_from" type="id" />
+    <item name="text_view_to" type="id" />
+    <item name="text_view_condition" type="id" />
+    <item name="framelayout" type="id" />
+    <item name="map" type="id" />
+</resources>
