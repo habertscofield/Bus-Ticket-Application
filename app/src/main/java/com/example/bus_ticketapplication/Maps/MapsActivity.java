@@ -1,184 +1,323 @@
-package com.example.bus_ticketapplication.Maps;
+package com.example.bus_ticketapplication;
+
 import android.Manifest;
-import android.annotation.SuppressLint;
-import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
-import android.net.Uri;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.os.Bundle;
-import android.provider.Settings;
-import android.view.View;
-import android.widget.TextView;
+import android.util.Log;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.fragment.app.FragmentActivity;
 
-import com.example.bus_ticketapplication.R;
-import com.example.bus_ticketapplication.UserDashboard;
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.FusedLocationProviderClient;
-import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.firebase.auth.FirebaseAuth;
-import com.karumi.dexter.Dexter;
-import com.karumi.dexter.PermissionToken;
-import com.karumi.dexter.listener.PermissionDeniedResponse;
-import com.karumi.dexter.listener.PermissionGrantedResponse;
-import com.karumi.dexter.listener.PermissionRequest;
-import com.karumi.dexter.listener.single.PermissionListener;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.List;
-import java.util.Locale;
 
-public class  MapsActivity extends AppCompatActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
+public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
-        boolean isPermissionGranted;
-        GoogleMap mGoogleMap;
-        FloatingActionButton mGetLocBtn;
-        private FusedLocationProviderClient mLocationClient;
-        private TextView textViewAddress;
+        private GoogleMap mMap;
+        LocationManager locationManager;
+        private static final int LOCATION_REQUEST =500;
+        private LatLng currentLocation;
+        private LatLng destination;
 
-
-        @SuppressLint("ServiceCast")
         @Override
-        protected void onCreate(Bundle savedInstanceState) {
+        protected void onCreate(final Bundle savedInstanceState) {
                 super.onCreate(savedInstanceState);
-                setContentView(R.layout.activity_maps);
-                getSupportActionBar().setTitle("Current Location");
-                getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+                setContentView(R.layout.activity_main);
+                // Obtain the SupportMapFragment and get notified when the map is ready to be used.
+                SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                        .findFragmentById(R.id.map);
+                mapFragment.getMapAsync(this);
 
-                textViewAddress = findViewById(R.id.Address);
+                double distance =CalculationByDistance(currentLocation,destination);
 
-                mGetLocBtn = findViewById(R.id.fab);
-                mGetLocBtn.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-                                getCurrloc(); //getting lat and long and positioning the camera on current location also viewing current address string
-                        }
-                });
+                Toast.makeText(getApplicationContext(),"Distance is :" +distance,Toast.LENGTH_LONG).show();
 
 
-                //asking for location permissions using the DEXTER library
-                checkForPermissions();
+                locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
 
-                initMap();
+                if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                        // TODO: Consider calling
+                        //    ActivityCompat#requestPermissions
+                        // here to request the missing permissions, and then overriding
+                        //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                        //                                          int[] grantResults)
+                        // to handle the case where the user grants the permission. See the documentation
+                        // for ActivityCompat#requestPermissions for more details.
+                        return;
+                }
 
-                mLocationClient = new FusedLocationProviderClient(this);
+
+                // Check if network provider is available
+
+                if (locationManager.isProviderEnabled(locationManager.NETWORK_PROVIDER)) {
+                        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, new LocationListener() {
+                                @Override
+                                public void onLocationChanged(Location location) {
+                                        //get latitude
+                                        double latitude = location.getLatitude();
+                                        //get longitude
+                                        double longitude = location.getLongitude();
+
+                                        //instantiate class LatLang
+                                        currentLocation = new LatLng(latitude, longitude);
+
+                                        //instantiate class Geocoder
+                                        Geocoder geocoder = new Geocoder(getApplicationContext());
+
+                                        try {
+                                                List<Address> addressList = geocoder.getFromLocation(latitude, longitude, 1);
+                                                String str = addressList.get(0).getLocality() + " ,";
+                                                str += addressList.get(0).getCountryName();
+                                                mMap.addMarker(new MarkerOptions().position(currentLocation).title(str));
+                                                mMap.moveCamera(CameraUpdateFactory.newLatLng(currentLocation));
+                                        } catch (IOException e) {
+                                                e.printStackTrace();
+                                        }
+
+
+                                }
+
+                                @Override
+                                public void onStatusChanged(String provider, int status, Bundle extras) {
+
+                                }
+
+                                @Override
+                                public void onProviderEnabled(String provider) {
+
+                                }
+
+                                @Override
+                                public void onProviderDisabled(String provider) {
+
+                                }
+                        });
+
+                } else if (locationManager.isProviderEnabled(locationManager.GPS_PROVIDER)) {
+                        locationManager.requestLocationUpdates(locationManager.GPS_PROVIDER, 0, 0, new LocationListener() {
+                                @Override
+                                public void onLocationChanged(Location location) {
+                                        //get latitude
+                                        double latitude = location.getLatitude();
+                                        //get longitude
+                                        double longitude = location.getLongitude();
+
+                                        //instantiate class LatLang
+                                        currentLocation = new LatLng(latitude, longitude);
+
+                                        //instantiate class Geocoder
+                                        Geocoder geocoder = new Geocoder(getApplicationContext());
+
+                                        try {
+                                                List<Address> addressList = geocoder.getFromLocation(latitude, longitude, 1);
+                                                String str = addressList.get(0).getLocality() + " ,";
+                                                str += addressList.get(0).getCountryName();
+                                                mMap.addMarker(new MarkerOptions().position(currentLocation).title(str));
+                                                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentLocation, 10.5f));
+                                        } catch (IOException e) {
+                                                e.printStackTrace();
+                                        }
+
+                                }
+
+                                @Override
+                                public void onStatusChanged(String provider, int status, Bundle extras) {
+
+                                }
+
+                                @Override
+                                public void onProviderEnabled(String provider) {
+
+                                }
+
+                                @Override
+                                public void onProviderDisabled(String provider) {
+
+                                }
+                        });
+                }
 
         }
 
 
-        private String getAddress(LatLng Latlng) {
-                String myAdd = "";
-                Geocoder geocoder = new Geocoder(MapsActivity.this, Locale.getDefault());
+        /**
+         * Manipulates the map once available.
+         * This callback is triggered when the map is ready to be used.
+         * This is where we can add markers or lines, add listeners or move the camera. In this case,
+         * we just add a marker near Sydney, Australia.
+         * If Google Play services is not installed on the device, the user will be prompted to install
+         * it inside the SupportMapFragment. This method will only be triggered once the user has
+         * installed Google Play services and returned to the app.
+         */
+        @Override
+        public void onMapReady(GoogleMap googleMap) {
+                mMap = googleMap;
+                mMap.getUiSettings().setZoomControlsEnabled(true);
+
+                if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                        ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION},LOCATION_REQUEST);
+                        return;
+                }
+                // get current location
+
+                //mMap.setMyLocationEnabled(true);
+
+
+                //destination location
+
+                Geocoder geocoder = new Geocoder(getApplicationContext());
+                List<Address> addressList = null;
                 try {
-                        List<Address> addresses = geocoder.getFromLocation(Latlng.latitude, Latlng.longitude,1);
-                        String address = addresses.get(0).getAddressLine(0);
-                        myAdd = addresses.get(0).getFeatureName() + "," + addresses.get(0).getLocality() + "," + addresses.get(0).getAdminArea() + "," + addresses.get(0).getCountryName()  ;
+                        destination = new LatLng(-1.291532, 36.815803);
+                        addressList = geocoder.getFromLocation(-1.291532, 36.815803, 1);
+                        String location = addressList.get(0).getLocality() + " ,";
+                        location += addressList.get(0).getCountryName();
+                        mMap.addMarker(new MarkerOptions().position(destination).title(location));
+                        mMap.moveCamera(CameraUpdateFactory.newLatLng(destination));
                 } catch (IOException e) {
                         e.printStackTrace();
                 }
-                return myAdd;
+
+
+                //String url = getRequestUrl(currentLocation,destination);
         }
 
-        @SuppressLint("MissingPermission")
-        private void getCurrloc() {
-                mLocationClient.getLastLocation().addOnCompleteListener(task -> {
-                        if(task.isSuccessful()){
-                                Location location = task.getResult();
-                                gotoLocation(location.getLatitude(), location.getLongitude());
-                        }
-                });
-        }
-
-        private void gotoLocation(double latitude, double longitude) {
-                LatLng Latlng = new LatLng(latitude, longitude);
-                String myAddress = getAddress(Latlng);
-                textViewAddress.setText(
-                        String.format(
-                                "Address: %s",
-                                myAddress
-                        )
-                );
-                CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(Latlng, 18);
-                mGoogleMap.moveCamera(cameraUpdate);
-                mGoogleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
-        }
-
-        private void initMap() {
-                if (isPermissionGranted){
-                        SupportMapFragment supportMapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.fragment);
-                        supportMapFragment.getMapAsync((OnMapReadyCallback) this);
+/**
+ //method request full url to get full url to request direction from google map api
+ private String getRequestUrl(LatLng origin,LatLng destination)
+ {
+ //value of origin
+ String str_origin = "origin" + origin.latitude +"," + origin.longitude;
+ //value of destination
+ String str_destination = "destination" + origin.latitude +","+origin.longitude;
+ //set value enable sensor
+ String sensor = "sensor-false";
+ //Mode for find direction
+ String mode = "mode=driving";
+ //Build the full param
+ String param = str_origin+"&" +str_destination +"&"+sensor+"&"+mode;
+ //Output format
+ String output = "json";
+ //Create url to request
+ String url = "https://maps.googleapis.com/map/api/directions" +output +"?"+param;
+ return url;
+ }
+ **/
+        /**
+         //method to request directions using http url connection
+         private String requestDirection(String reqUrl) throws IOException {
+         String responseString = "";
+         InputStream inputStream = null;
+         HttpURLConnection httpURLConnection = null;
+         try {
+         URL url = new URL(reqUrl);
+         httpURLConnection = (HttpURLConnection) url.openConnection();
+         //Get the response result
+         inputStream = httpURLConnection.getInputStream();
+         InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+         StringBuffer stringBuffer = new StringBuffer();
+         String line = "";
+         while ((line = bufferedReader.readLine()) != null)
+         {
+         stringBuffer.append(line);
+         }
+         responseString = stringBuffer.toString();
+         bufferedReader.close();
+         inputStreamReader.close();
+         } catch (Exception e) {
+         e.printStackTrace();
+         }
+         finally {
+         if (inputStream != null)
+         {
+         inputStream.close();
+         }
+         httpURLConnection.disconnect();
+         }
+         return responseString;
+         }
+         **/
+        @Override
+        public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+                super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+                switch (requestCode) {
+                        case LOCATION_REQUEST:
+                                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                                        Geocoder geocoder = new Geocoder(getApplicationContext());
+                                        List<Address> addressList = null;
+                                        try {
+                                                LatLng destination = new LatLng(-1.291532, 36.815803);
+                                                addressList = geocoder.getFromLocation(-1.291532, 36.815803, 1);
+                                                String location = addressList.get(0).getLocality() + " ,";
+                                                location += addressList.get(0).getCountryName();
+                                                mMap.addMarker(new MarkerOptions().position(destination).title(location));
+                                                mMap.moveCamera(CameraUpdateFactory.newLatLng(destination));
+                                        } catch (IOException e) {
+                                                e.printStackTrace();
+                                        }
+                                }
+                                break;
                 }
-        }
-
-        private void checkForPermissions() {
-                Dexter.withActivity(this).withPermission(Manifest.permission.ACCESS_FINE_LOCATION).withListener(new PermissionListener() {
-                        @Override
-                        public void onPermissionGranted(PermissionGrantedResponse permissionGrantedResponse) {
-                                Toast.makeText(MapsActivity.this, "Permission Granted", Toast.LENGTH_SHORT).show();
-                                isPermissionGranted = true;
-                        }
-
-                        @Override
-                        public void onPermissionDenied(PermissionDeniedResponse permissionDeniedResponse) {
-                                Intent intent = new Intent();
-                                intent.setAction(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
-                                Uri uri = Uri.fromParts("package", getPackageName(),"");
-                                intent.setData(uri);
-                                startActivity(intent);
-                        }
-
-                        @Override
-                        public void onPermissionRationaleShouldBeShown(PermissionRequest permissionRequest, PermissionToken permissionToken) {
-                                permissionToken.continuePermissionRequest();
-                        }
-
-                }).check();
-        }
-
-        //logging out the user
-        public void logout(View view) {
-                FirebaseAuth.getInstance().signOut();
-                startActivity(new Intent(getApplicationContext(), UserDashboard.class));
-                finish();
-        }
-
-
-        //showing current location marker
-        @SuppressLint("MissingPermission")
-        @Override
-        public void onMapReady(@NonNull GoogleMap googleMap) {
-                mGoogleMap = googleMap;
-                mGoogleMap.setMyLocationEnabled(true);
 
         }
 
+        /**  public class TaskRequestDirections extends AsyncTask<String,Void,String>
+         {
+         @Override
+         protected String doInBackground(String... strings) {
+         String responseString = "";
+         try {
+         responseString = requestDirection(strings[0])
+         } catch (IOException e) {
+         e.printStackTrace();
+         }
+         return responseString;
+         }
+         @Override
+         protected void onPostExecute(String s) {
+         super.onPostExecute(s);
+         //parse json here
+         }
+         }
+         **/
 
-        @Override
-        public void onConnected(@Nullable Bundle bundle) {
+        public double CalculationByDistance(LatLng StartP, LatLng EndP) {
+                int Radius=6371;//radius of earth in Km
+                double lat1 = StartP.latitude;
+                double lat2 = EndP.latitude;
+                double lon1 = StartP.longitude;
+                double lon2 = EndP.longitude;
+                double dLat = Math.toRadians(lat2-lat1);
+                double dLon = Math.toRadians(lon2-lon1);
+                double a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                        Math.cos(Math.toRadians(lat1)) * Math.cos(Math.toRadians(lat2)) *
+                                Math.sin(dLon/2) * Math.sin(dLon/2);
+                double c = 2 * Math.asin(Math.sqrt(a));
+                double valueResult= Radius*c;
+                double km=valueResult/1;
+                DecimalFormat newFormat = new DecimalFormat("####");
+                int kmInDec =  Integer.valueOf(newFormat.format(km));
+                double meter=valueResult%1000;
+                int  meterInDec= Integer.valueOf(newFormat.format(meter));
+                Log.i("Radius Value",""+valueResult+"   KM  "+kmInDec+" Meter   "+meterInDec);
 
+                return Radius * c;
         }
 
-        @Override
-        public void onConnectionSuspended(int i) {
-
-        }
-
-        @Override
-        public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-
-        }
 }
-
-
