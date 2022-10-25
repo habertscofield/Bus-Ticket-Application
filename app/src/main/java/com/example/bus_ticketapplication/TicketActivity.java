@@ -1,6 +1,8 @@
 package com.example.bus_ticketapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -36,7 +38,7 @@ public class TicketActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ticket);
         getSupportActionBar().setTitle("My Tickets");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         recyclerView = findViewById(R.id.ticketRecyclerView);
         recyclerView.setHasFixedSize(true);
@@ -79,6 +81,12 @@ public class TicketActivity extends AppCompatActivity {
             }
         });
 
+    }
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        Intent intent=new Intent(getApplicationContext(),UserDashboard.class);
+        startActivityForResult(intent,0);
+        return true;
     }
 
 }

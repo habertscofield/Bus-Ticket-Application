@@ -4,19 +4,29 @@ public class CustomRowItem {
     String busId;
     public String travelsName;
     public String busNumber;
+    public  String fare;
     public String date;
     public String time;
     public String from;
     public String to;
 
-    public CustomRowItem(String busId, String travelsName, String busNumber, String date, String time, String from, String to) {
+    public CustomRowItem(String busId, String travelsName, String busNumber, String fare,String date, String time, String from, String to) {
         this.busId = busId;
         this.travelsName = travelsName;
         this.busNumber = busNumber;
+        this.fare=fare;
         this.date = date;
         this.time = time;
         this.from = from;
         this.to = to;
+    }
+
+    public String getFare() {
+        return fare;
+    }
+
+    public void setFare(String fare) {
+        this.fare = fare;
     }
 
     public String getBusId() {

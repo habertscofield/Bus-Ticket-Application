@@ -4,6 +4,7 @@ public class Bus2 {
     String busId;
     String travelsName;
     String busNumber;
+    String fare;
     String date;
     String time;
     String from;
@@ -13,15 +14,24 @@ public class Bus2 {
     public Bus2() {
     }
 
-    public Bus2(String busId,String travelsName, String busNumber, String date,String time, String from, String to) {
+    public Bus2(String busId,String travelsName, String busNumber,String fare, String date,String time, String from, String to) {
         this.busId = busId;
         this.travelsName = travelsName;
         this.busNumber = busNumber;
+        this.fare=fare;
         this.date = date;
         this.time=time;
         this.from = from;
         this.to = to;
 
+    }
+
+    public String getFare() {
+        return fare;
+    }
+
+    public void setFare(String fare) {
+        this.fare = fare;
     }
 
     public String getTime() {

@@ -5,16 +5,23 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatCheckBox;
 
+import com.example.bus_ticketapplication.LoginUser;
 import com.example.bus_ticketapplication.R;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -33,7 +40,7 @@ public class adminlogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_adminlogin);
         getSupportActionBar().setTitle("Admin");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         try {
             mAUTH = FirebaseAuth.getInstance();
             //remove ine case
@@ -73,33 +80,33 @@ public class adminlogin extends AppCompatActivity {
             Toast.makeText(this, "please enter your email address", Toast.LENGTH_SHORT).show();
 
         }
-        if (TextUtils.isEmpty(pass)){
+        else if (TextUtils.isEmpty(pass)){
             Toast.makeText(this, "please enter your password", Toast.LENGTH_SHORT).show();
 
         }
         else{
-            if (Email.equals("admin@gmail.com") && (pass.equals("admin"))){
-                SendUserToMainActivity();
-
-            }
-            else {
-                Toast.makeText(this, "please enter correct details", Toast.LENGTH_SHORT).show();
-
-            }
-
-
+            mAUTH.signInWithEmailAndPassword(Email,pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                @Override
+                public void onComplete(@NonNull Task<AuthResult> task) {
+                    if(Email.equals("admin@gmail.com") && pass.equals("Habert99")){
+                        Toast.makeText(adminlogin.this, "Login successful", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(adminlogin.this,AdminActivity.class));
+                    }
+                }
+            }).addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception e) {
+                   // Toast.makeText(adminlogin.this, "Login failed", Toast.LENGTH_SHORT).show();
+                }
+            });
 
         }
     }
-
-    private void SendUserToMainActivity() {
-        try {
-            Toast.makeText(adminlogin.this, "Login Successfull", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(adminlogin.this, AdminActivity.class);
-            startActivity(intent);
-        }catch(Exception e){
-            Toast.makeText(adminlogin.this,e.getMessage(),Toast.LENGTH_LONG).show();
-        }
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        Intent intent=new Intent(getApplicationContext(), LoginUser.class);
+        startActivityForResult(intent,0);
+        return true;
     }
 }
 

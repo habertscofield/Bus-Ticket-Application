@@ -4,6 +4,7 @@ package com.example.bus_ticketapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -38,6 +39,9 @@ public final class ActivityTicketDetailsBinding implements ViewBinding {
   public final TextView passengerNameTicket;
 
   @NonNull
+  public final Button printTicket;
+
+  @NonNull
   public final TextView seatTicket;
 
   @NonNull
@@ -58,9 +62,9 @@ public final class ActivityTicketDetailsBinding implements ViewBinding {
   private ActivityTicketDetailsBinding(@NonNull RelativeLayout rootView,
       @NonNull TextView busNameTicket, @NonNull TextView emailTicket, @NonNull TextView fromTicket,
       @NonNull TextView journeyDateTicket, @NonNull TextView mobileNumberTicket,
-      @NonNull TextView passengerNameTicket, @NonNull TextView seatTicket,
-      @NonNull TextView seatsTicket, @NonNull TextView ticketIDTicket, @NonNull TextView timeTicket,
-      @NonNull TextView toTicket, @NonNull TextView totalCostTicket) {
+      @NonNull TextView passengerNameTicket, @NonNull Button printTicket,
+      @NonNull TextView seatTicket, @NonNull TextView seatsTicket, @NonNull TextView ticketIDTicket,
+      @NonNull TextView timeTicket, @NonNull TextView toTicket, @NonNull TextView totalCostTicket) {
     this.rootView = rootView;
     this.busNameTicket = busNameTicket;
     this.emailTicket = emailTicket;
@@ -68,6 +72,7 @@ public final class ActivityTicketDetailsBinding implements ViewBinding {
     this.journeyDateTicket = journeyDateTicket;
     this.mobileNumberTicket = mobileNumberTicket;
     this.passengerNameTicket = passengerNameTicket;
+    this.printTicket = printTicket;
     this.seatTicket = seatTicket;
     this.seatsTicket = seatsTicket;
     this.ticketIDTicket = ticketIDTicket;
@@ -139,6 +144,12 @@ public final class ActivityTicketDetailsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.print_ticket;
+      Button printTicket = ViewBindings.findChildViewById(rootView, id);
+      if (printTicket == null) {
+        break missingId;
+      }
+
       id = R.id.seatTicket;
       TextView seatTicket = ViewBindings.findChildViewById(rootView, id);
       if (seatTicket == null) {
@@ -176,8 +187,8 @@ public final class ActivityTicketDetailsBinding implements ViewBinding {
       }
 
       return new ActivityTicketDetailsBinding((RelativeLayout) rootView, busNameTicket, emailTicket,
-          fromTicket, journeyDateTicket, mobileNumberTicket, passengerNameTicket, seatTicket,
-          seatsTicket, ticketIDTicket, timeTicket, toTicket, totalCostTicket);
+          fromTicket, journeyDateTicket, mobileNumberTicket, passengerNameTicket, printTicket,
+          seatTicket, seatsTicket, ticketIDTicket, timeTicket, toTicket, totalCostTicket);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

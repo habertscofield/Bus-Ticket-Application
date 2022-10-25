@@ -344,8 +344,18 @@
             android:text="Have a Safe Journey"
             android:textColor="@color/colorPrimary"
             android:textSize="30sp" />
+        <Button
+            android:id="@+id/print_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download TICKET"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
 
 
     </LinearLayout>
+
 
 </RelativeLayout>

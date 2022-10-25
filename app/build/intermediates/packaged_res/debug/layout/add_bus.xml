@@ -14,75 +14,123 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-
         <TextView
-            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Bus"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20sp"/>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="0dp"
-            android:gravity="center"
-            android:text="Bus Details"
-            android:textSize="25sp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/travelsName"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="32dp"
+            android:hint="Enter Bus Name "
+            android:layout_marginTop="20dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:id="@+id/travelsName"
+                android:fontFamily="monospace"
+                android:focusableInTouchMode="true"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:ems="10"
-            android:hint="Bus Name"
-            android:textColorHint="@color/black"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/busNumber"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="32dp"
+            android:hint="Enter Bus Number  "
+            android:layout_marginTop="20dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:id="@+id/busNumber"
+                android:fontFamily="monospace"
+                android:focusableInTouchMode="true"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:ems="10"
-            android:hint="Bus Number"
-            android:textColorHint="@color/black"
-            android:inputType="text" />
-
-        <TextView
-            android:id="@+id/journeyDate"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="32dp"
+            android:hint="Enter Bus Fare:Ksh. "
+            android:layout_marginTop="20dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:text=""
+                android:id="@+id/busFare"
+                android:fontFamily="monospace"
+                android:focusableInTouchMode="true"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_margin="5dp"
-            android:ems="10"
-            android:hint="Journey Date"
-            android:inputType="date"
-            android:textSize="18sp"
-            android:textColorHint="@color/black"/>
-        <TextView
-            android:id="@+id/journeyTime"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="32dp"
+            android:hint="Journey Date  "
+            android:layout_marginTop="20dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:inputType="date"
+                android:drawableStart="@drawable/cal"
+                android:id="@+id/journeyDate"
+                android:focusableInTouchMode="false"
+                android:fontFamily="monospace"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_margin="5dp"
-            android:ems="10"
-            android:hint="Journey Time"
-            android:inputType="time"
-            android:textSize="18sp"
-            android:focusable="false"
-            android:textColorHint="@color/black"/>
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="32dp"
+            android:hint="Journey Time  "
+            android:layout_marginTop="20dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:inputType="date"
+                android:drawableStart="@drawable/time"
+                android:id="@+id/journeyTime"
+                android:focusableInTouchMode="false"
+                android:fontFamily="monospace"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
+            android:layout_marginStart="5dp"
             android:layout_marginEnd="32dp"
             android:hint="From : "
-            app:startIconDrawable="@xml/ic_place"
+            app:startIconDrawable="@xml/ic_place">
 
-            >
             <AutoCompleteTextView
                 android:id="@+id/busFrom"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:hint="From"
+                android:focusableInTouchMode="false"
                 android:inputType="textAutoComplete"
                 />
 
@@ -95,7 +143,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:startIconDrawable="@xml/ic_place"
-            android:layout_marginStart="32dp"
+            android:layout_marginStart="5dp"
             android:layout_marginEnd="32dp"
             android:hint="To : "
             android:layout_marginTop="10dp"
@@ -107,6 +155,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:hint="To"
+                android:focusableInTouchMode="false"
                 android:inputType="textAutoComplete"
                 />
 
@@ -117,7 +166,9 @@
             android:id="@+id/btnaddBus"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="32dp"
             android:background="@color/colorPrimary"
             android:textColor="@color/white"
             android:padding="10dp"

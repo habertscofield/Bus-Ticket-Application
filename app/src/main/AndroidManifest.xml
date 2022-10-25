@@ -8,6 +8,9 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -18,34 +21,34 @@
         android:theme="@style/Theme.BusTicketApplication"
         tools:replace="android:icon,android:label">
         <activity
-            android:name=".ViewPDFActivity"
+            android:name=".ViewPayment"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".Help"
+            android:exported="false" />
+        <activity
+            android:name=".Pay"
+            android:exported="false" />
+        <activity
+            android:name=".SeatChoose"
             android:exported="false" />
         <activity
             android:name=".CancelActivity"
             android:exported="false" />
         <activity
-            android:name=".Admin.MainActivity"
-            android:exported="false" />
-        <activity
             android:name=".BuslistActivity"
             android:exported="false" />
         <activity
-            android:name=".Payable"
-            android:exported="false" />
-        <activity
             android:name=".Maps.MapsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Print"
             android:exported="false" />
         <activity
             android:name=".TicketDetailsActivity"
             android:exported="false" />
         <activity
             android:name=".TicketActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Notification"
             android:exported="false" />
         <activity
             android:name=".ConfirmTicket"
@@ -83,6 +86,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".service.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".service.MyFirebaseInstanceIDService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

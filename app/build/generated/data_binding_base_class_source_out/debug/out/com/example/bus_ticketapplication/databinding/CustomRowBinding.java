@@ -20,6 +20,9 @@ public final class CustomRowBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
+  public final TextView textViewBusFare;
+
+  @NonNull
   public final TextView textViewBusName;
 
   @NonNull
@@ -37,11 +40,12 @@ public final class CustomRowBinding implements ViewBinding {
   @NonNull
   public final TextView textViewTo;
 
-  private CustomRowBinding(@NonNull CardView rootView, @NonNull TextView textViewBusName,
-      @NonNull TextView textViewBusNumber, @NonNull TextView textViewDate,
-      @NonNull TextView textViewFrom, @NonNull TextView textViewTime,
-      @NonNull TextView textViewTo) {
+  private CustomRowBinding(@NonNull CardView rootView, @NonNull TextView textViewBusFare,
+      @NonNull TextView textViewBusName, @NonNull TextView textViewBusNumber,
+      @NonNull TextView textViewDate, @NonNull TextView textViewFrom,
+      @NonNull TextView textViewTime, @NonNull TextView textViewTo) {
     this.rootView = rootView;
+    this.textViewBusFare = textViewBusFare;
     this.textViewBusName = textViewBusName;
     this.textViewBusNumber = textViewBusNumber;
     this.textViewDate = textViewDate;
@@ -77,6 +81,12 @@ public final class CustomRowBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.text_view_busFare;
+      TextView textViewBusFare = ViewBindings.findChildViewById(rootView, id);
+      if (textViewBusFare == null) {
+        break missingId;
+      }
+
       id = R.id.text_view_busName;
       TextView textViewBusName = ViewBindings.findChildViewById(rootView, id);
       if (textViewBusName == null) {
@@ -113,8 +123,8 @@ public final class CustomRowBinding implements ViewBinding {
         break missingId;
       }
 
-      return new CustomRowBinding((CardView) rootView, textViewBusName, textViewBusNumber,
-          textViewDate, textViewFrom, textViewTime, textViewTo);
+      return new CustomRowBinding((CardView) rootView, textViewBusFare, textViewBusName,
+          textViewBusNumber, textViewDate, textViewFrom, textViewTime, textViewTo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

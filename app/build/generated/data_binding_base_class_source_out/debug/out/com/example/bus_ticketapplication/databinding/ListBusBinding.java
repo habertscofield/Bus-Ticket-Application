@@ -4,11 +4,10 @@ package com.example.bus_ticketapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.bus_ticketapplication.R;
@@ -18,10 +17,10 @@ import java.lang.String;
 
 public final class ListBusBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final CardView rootView;
 
   @NonNull
-  public final ImageView busImage;
+  public final TextView textViewBusFare;
 
   @NonNull
   public final TextView textViewBusName;
@@ -41,12 +40,12 @@ public final class ListBusBinding implements ViewBinding {
   @NonNull
   public final TextView textViewTo;
 
-  private ListBusBinding(@NonNull RelativeLayout rootView, @NonNull ImageView busImage,
+  private ListBusBinding(@NonNull CardView rootView, @NonNull TextView textViewBusFare,
       @NonNull TextView textViewBusName, @NonNull TextView textViewBusNumber,
       @NonNull TextView textViewDate, @NonNull TextView textViewFrom,
       @NonNull TextView textViewTime, @NonNull TextView textViewTo) {
     this.rootView = rootView;
-    this.busImage = busImage;
+    this.textViewBusFare = textViewBusFare;
     this.textViewBusName = textViewBusName;
     this.textViewBusNumber = textViewBusNumber;
     this.textViewDate = textViewDate;
@@ -57,7 +56,7 @@ public final class ListBusBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public CardView getRoot() {
     return rootView;
   }
 
@@ -82,9 +81,9 @@ public final class ListBusBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.busImage;
-      ImageView busImage = ViewBindings.findChildViewById(rootView, id);
-      if (busImage == null) {
+      id = R.id.text_view_busFare;
+      TextView textViewBusFare = ViewBindings.findChildViewById(rootView, id);
+      if (textViewBusFare == null) {
         break missingId;
       }
 
@@ -124,7 +123,7 @@ public final class ListBusBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ListBusBinding((RelativeLayout) rootView, busImage, textViewBusName,
+      return new ListBusBinding((CardView) rootView, textViewBusFare, textViewBusName,
           textViewBusNumber, textViewDate, textViewFrom, textViewTime, textViewTo);
     }
     String missingId = rootView.getResources().getResourceName(id);

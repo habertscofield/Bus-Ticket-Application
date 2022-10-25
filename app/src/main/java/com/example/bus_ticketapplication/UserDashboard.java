@@ -41,7 +41,9 @@ import com.squareup.picasso.Picasso;
 
 import org.jetbrains.annotations.NotNull;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -49,6 +51,7 @@ public class UserDashboard extends AppCompatActivity {
     private static final String TAG = "Navigation";
     private ActionBarDrawerToggle actionBarDrawerToggle;
     private DrawerLayout drawerLayout;
+    int  t1Day, t1Month, t1Year,t1Hour, t1Minute;
     private NavigationView navigationView;
     private AlertDialog.Builder logOutBuilder, exitAppBuilder;
     private FirebaseUser firebaseUser;
@@ -57,7 +60,7 @@ public class UserDashboard extends AppCompatActivity {
     private String userId, firstName, lastName;
     private View headerView;
     private CircleImageView circleImageView;
-    private TextView mDisplayDate,dateBus;
+    private TextView dateBus;
     private DatePickerDialog.OnDateSetListener mDatesetListener;
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
@@ -72,7 +75,7 @@ public class UserDashboard extends AppCompatActivity {
     //  Toolbar toolbar;
     private int journeyDate,journeyMonth,journeyYear;
 
-    private TextInputEditText journeydate;
+    private TextInputEditText mDisplayDate;
     private TextInputLayout textInputLayout;
 
 //    public static final String FROM_BUS = "firstlocation";
@@ -92,7 +95,7 @@ public class UserDashboard extends AppCompatActivity {
         actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.Open, R.string.Close);
         autoCompleteTextView1 = findViewById(R.id.busFrom);
         autoCompleteTextView2 = findViewById(R.id.busTo);
-        journeydate = findViewById(R.id.journeydate);
+        mDisplayDate = findViewById(R.id.journeydate);
 
 
         angry_btn = findViewById(R.id.angry_btn);
@@ -151,27 +154,40 @@ public class UserDashboard extends AppCompatActivity {
         String[] to = getResources().getStringArray(R.array.from);
         ArrayAdapter<String> arrayAdapter1 = new ArrayAdapter<String>(this, R.layout.dropdown_item, to);
         autoCompleteTextView2.setAdapter(arrayAdapter1);
-        journeydate.setOnClickListener(new View.OnClickListener() {
+        final Calendar newCalender = Calendar.getInstance();
+        mDisplayDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Calendar calendar = Calendar.getInstance();
-                journeyDate = calendar.get(Calendar.DATE);
-                journeyMonth = calendar.get(Calendar.MONTH);
-                journeyYear = calendar.get(Calendar.YEAR);
+                DatePickerDialog datePickerDialog = new DatePickerDialog(UserDashboard.this, new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                        final Calendar newTime = Calendar.getInstance();
+                        Calendar newDate = Calendar.getInstance();
+                        Calendar storedInf = Calendar.getInstance();
+                        Calendar cal = Calendar.getInstance();
+                        // TimePickerDialog timePickerDialog = new TimePickerDialog(RemindPage.this, android.R.style.Theme_Holo_Light_Dialog_MinWidth, new TimePickerDialog.OnTimeSetListener() {
+                        t1Day = dayOfMonth;
+                        t1Month = month;
+                        t1Year = year;
 
-                DatePickerDialog datePickerDialog = new DatePickerDialog(UserDashboard.this,
-                        android.R.style.Theme_DeviceDefault_Dialog,
-                        new DatePickerDialog.OnDateSetListener() {
-                            @Override
-                            public void onDateSet(DatePicker datePicker, int year, int month, int date) {
-                                journeydate.setText(date+" - "+(month+1)+" - "+year);
-                            }
-                        },
-                        journeyYear,
-                        journeyMonth,
-                        journeyDate);
-                datePickerDialog.getDatePicker().setMinDate(System.currentTimeMillis()-1000);;
+                        newDate.set(year, month, dayOfMonth);
+                        Calendar tem = Calendar.getInstance();
+                        Date getDate = new Date();
+
+                        storedInf.set(t1Year, t1Month, t1Day);
+                        SimpleDateFormat format = new SimpleDateFormat("EEEE, MMMM d, yyyy");
+
+                        mDisplayDate.setText(format.format(storedInf.getTime()));
+
+
+                    }
+                }, newCalender.get(Calendar.YEAR),
+                        newCalender.get(Calendar.MONTH),
+                        newCalender.get(Calendar.DAY_OF_MONTH)
+                );
+                datePickerDialog.getDatePicker().setMinDate(System.currentTimeMillis());
                 datePickerDialog.show();
+
             }
         });
 
@@ -200,7 +216,6 @@ public class UserDashboard extends AppCompatActivity {
                        Intent intentlocation=new Intent(getApplicationContext(), MapsActivity.class);
                        intentlocation.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                        startActivity(intentlocation);
-
                         drawerLayout.closeDrawer(GravityCompat.START);
                         return true;
                     case R.id.cancel:
@@ -209,11 +224,6 @@ public class UserDashboard extends AppCompatActivity {
                         startActivity(intentCancel);
                         drawerLayout.closeDrawer(GravityCompat.START);
                         return true;
-                    case R.id.notify:
-                        Intent intentNotify= new Intent(getApplicationContext(), Notification.class);
-                        intentNotify.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                        startActivity(intentNotify);
-
 
                     case R.id.tickets:
                         //Toast.makeText(MainActivity.this, "Tickets Menu is Clicked !!", Toast.LENGTH_SHORT).show();
@@ -222,10 +232,17 @@ public class UserDashboard extends AppCompatActivity {
                        startActivity(intentTickets);
                         drawerLayout.closeDrawer(GravityCompat.START);
                         return true;
-                    case R.id.print:
-                        Intent intentPrint = new Intent(getApplicationContext(), Print.class);
-                        intentPrint.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                        startActivity(intentPrint);
+                    case R.id.help:
+                        //Toast.makeText(MainActivity.this, "Tickets Menu is Clicked !!", Toast.LENGTH_SHORT).show();
+                        Intent intentHelp = new Intent(getApplicationContext(), Help.class);
+                        intentHelp.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        startActivity(intentHelp);
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        return true;
+                    case R.id.aboutus:
+                        Intent intentAbout=new Intent(getApplicationContext(),About.class);
+                        intentAbout.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        startActivity(intentAbout);
                         drawerLayout.closeDrawer(GravityCompat.START);
                         return true;
 
@@ -275,7 +292,7 @@ public class UserDashboard extends AppCompatActivity {
     private void SearchBuses() {
         String from = autoCompleteTextView1.getText().toString().trim();
         String to = autoCompleteTextView2.getText().toString().trim();
-        String date = journeydate.getText().toString().trim();
+        String date = mDisplayDate.getText().toString().trim();
        //  String key = databaseReference.push().getKey();
 
         if (from.isEmpty()) {
@@ -300,6 +317,7 @@ public class UserDashboard extends AppCompatActivity {
         }
 
         progressDialog.setMessage("Searching Buses Please Wait...");
+        progressDialog.setCancelable(false);
         progressDialog.show();
         BookingDetail bookingDetail = new BookingDetail(from, to, date);
         databaseReference.child("BookingDetails").push().setValue(bookingDetail).addOnCompleteListener(new OnCompleteListener<Void>() {

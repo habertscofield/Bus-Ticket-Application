@@ -12,7 +12,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Splash extends AppCompatActivity {
-    private static int SPASH= 5000;
+    private static int SPASH= 3000;
     Animation topAnim, bottomAnim;
     ImageView image;
     TextView name,slogan;

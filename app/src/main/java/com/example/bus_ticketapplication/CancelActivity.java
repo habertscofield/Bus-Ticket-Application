@@ -3,6 +3,7 @@ package com.example.bus_ticketapplication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
@@ -35,7 +36,8 @@ public class CancelActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cancel);
         getSupportActionBar().setTitle("Cancel Ticket section");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         ticketList = new ArrayList<>();
         listViewTickets = findViewById(R.id.listViewTicketDetails);
         databaseTickets = FirebaseDatabase.getInstance().getReference();
@@ -110,6 +112,12 @@ public class CancelActivity extends AppCompatActivity {
         Intent intent=new Intent(CancelActivity.this,CancelActivity.class);
         startActivity(intent);
 
+    }
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        Intent intent=new Intent(getApplicationContext(),UserDashboard.class);
+        startActivityForResult(intent,0);
+        return true;
     }
 
 }

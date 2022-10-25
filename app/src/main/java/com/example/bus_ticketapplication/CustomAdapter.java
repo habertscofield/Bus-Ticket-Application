@@ -34,6 +34,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
         CustomRowItem customRowItem = busList.get(position);
         holder.textViewBusName.setText(customRowItem.getTravelsName());
         holder.textViewBusNumber.setText(customRowItem.getBusNumber());
+        holder.textViewBusFare.setText("Ksh."+customRowItem.getFare());
         holder.textViewDate.setText(customRowItem.getDate());
         holder.textViewTime.setText(customRowItem.getTime());
         holder.textViewFrom.setText(customRowItem.getFrom());
@@ -47,12 +48,13 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
     }
 
     public  class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        TextView textViewBusName, textViewBusNumber, textViewDate, textViewTime, textViewFrom,textViewTo;
+        TextView textViewBusName, textViewBusNumber,textViewBusFare, textViewDate, textViewTime, textViewFrom,textViewTo;
 
         public MyViewHolder(@NonNull  View itemView) {
             super(itemView);
             textViewBusName = itemView.findViewById(R.id.text_view_busName);
             textViewBusNumber = itemView.findViewById(R.id.text_view_busNumber);
+            textViewBusFare=itemView.findViewById(R.id.text_view_busFare);
             textViewDate = itemView.findViewById(R.id.text_view_date);
             textViewTime = itemView.findViewById(R.id.text_view_time);
             textViewFrom = itemView.findViewById(R.id.text_view_from);
@@ -67,18 +69,16 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
             String busId = busList.get(position).getBusId();
             String travelsName = busList.get(position).getTravelsName();
             String busNumber = busList.get(position).getBusNumber();
+            String fare=busList.get(position).getFare();
             String date = busList.get(position).getDate();
             String time = busList.get(position).getTime();
             String from = busList.get(position).getFrom();
             String to = busList.get(position).getTo();
 
-
-
-           // String journeyDate = busList.get(position).getJourneyDate();
-
             Intent intent = new Intent(context, SeatActivity.class);
 
             intent.putExtra("NAME_BUS",travelsName);
+            intent.putExtra("BUS_FARE",fare);
             intent.putExtra("BUS_ID",busId);
             intent.putExtra("DATE_BUS",date);
             intent.putExtra("TIME_BUS",time);
@@ -92,5 +92,6 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
 
     }
 }
+
 
 

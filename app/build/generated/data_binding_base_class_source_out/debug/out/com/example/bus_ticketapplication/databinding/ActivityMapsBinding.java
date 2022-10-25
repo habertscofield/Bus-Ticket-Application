@@ -4,46 +4,24 @@ package com.example.bus_ticketapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
-import androidx.viewbinding.ViewBindings;
 import com.example.bus_ticketapplication.R;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
-import java.lang.String;
 
 public final class ActivityMapsBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final View rootView;
 
-  @NonNull
-  public final TextView Address;
-
-  @NonNull
-  public final FloatingActionButton fab;
-
-  @NonNull
-  public final TextView textView2;
-
-  @NonNull
-  public final TextView textView4;
-
-  private ActivityMapsBinding(@NonNull ConstraintLayout rootView, @NonNull TextView Address,
-      @NonNull FloatingActionButton fab, @NonNull TextView textView2, @NonNull TextView textView4) {
+  private ActivityMapsBinding(@NonNull View rootView) {
     this.rootView = rootView;
-    this.Address = Address;
-    this.fab = fab;
-    this.textView2 = textView2;
-    this.textView4 = textView4;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public View getRoot() {
     return rootView;
   }
 
@@ -64,38 +42,10 @@ public final class ActivityMapsBinding implements ViewBinding {
 
   @NonNull
   public static ActivityMapsBinding bind(@NonNull View rootView) {
-    // The body of this method is generated in a way you would not otherwise write.
-    // This is done to optimize the compiled bytecode for size and performance.
-    int id;
-    missingId: {
-      id = R.id.Address;
-      TextView Address = ViewBindings.findChildViewById(rootView, id);
-      if (Address == null) {
-        break missingId;
-      }
-
-      id = R.id.fab;
-      FloatingActionButton fab = ViewBindings.findChildViewById(rootView, id);
-      if (fab == null) {
-        break missingId;
-      }
-
-      id = R.id.textView2;
-      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
-      if (textView2 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView4;
-      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
-      if (textView4 == null) {
-        break missingId;
-      }
-
-      return new ActivityMapsBinding((ConstraintLayout) rootView, Address, fab, textView2,
-          textView4);
+    if (rootView == null) {
+      throw new NullPointerException("rootView");
     }
-    String missingId = rootView.getResources().getResourceName(id);
-    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
+
+    return new ActivityMapsBinding(rootView);
   }
 }

@@ -2,6 +2,7 @@ package com.example.bus_ticketapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -29,8 +30,7 @@ public class ConfirmTicket extends AppCompatActivity {
     private Button homeButton;
     private ArrayList<Integer> mSelectedSeats;
     private String mBusId;
-
-    String total, seats, nameBus, dateBus,fromBus,toBus,timeBus,issueDate,issueTime,userId,message;
+    String total, seats, date, from,to,time,nameBus,fare,issueDate,issueTime,userId,message,seatsName,numberOfSeats;
     String firstName,lastName, phoneNo;
     private TextView busNameTextView, journeyDateTextView, ticketIDTextView,busToTextView,busFromTextView;
     private FirebaseAuth firebaseAuth;
@@ -39,13 +39,12 @@ public class ConfirmTicket extends AppCompatActivity {
     private FirebaseUser firebaseUser;
     Calendar calendar;
     Map<String,String> ticketDetailsMap = new HashMap<String, String>();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirm_ticket);
         getSupportActionBar().setTitle("Booking Complete");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mBusId = getIntent().getStringExtra("BUS_ID");
        Intent intent = getIntent();
@@ -54,14 +53,15 @@ public class ConfirmTicket extends AppCompatActivity {
         issueDate = currentDateFormat.format(calendar.getTime());
         SimpleDateFormat currentTimeFormat = new SimpleDateFormat("HH:mm");
         issueTime = currentTimeFormat.format(calendar.getTime());
-        fromBus=getIntent().getStringExtra("FROM_BUS");
-        toBus=getIntent().getStringExtra("TO_BUS");
-         dateBus=getIntent().getStringExtra("DATE_BUS");
+        from=getIntent().getStringExtra("FROM_BUS");
+        to=getIntent().getStringExtra("TO_BUS");
+        fare = getIntent().getStringExtra("BUS_FARE");
+         date=getIntent().getStringExtra("DATE_BUS");
         nameBus = getIntent().getStringExtra("NAME_BUS");
         total=getIntent().getStringExtra("TOTALCOST");
         seats=getIntent().getStringExtra("TOTALSEAT");
-        mSelectedSeats = getIntent().getIntegerArrayListExtra("SEATSET");
-        timeBus = getIntent().getStringExtra("TIME_BUS");
+       mSelectedSeats = getIntent().getIntegerArrayListExtra("SEATSET");
+        time = getIntent().getStringExtra("TIME_BUS");
         message = getIntent().getStringExtra("noti");
         firebaseAuth = FirebaseAuth.getInstance();
         userId = firebaseAuth.getCurrentUser().getUid();
@@ -69,10 +69,11 @@ public class ConfirmTicket extends AppCompatActivity {
 
 
         ticketDetailsMap.put("busName",nameBus);
-        ticketDetailsMap.put("from",fromBus);
-        ticketDetailsMap.put("to",toBus);
-        ticketDetailsMap.put("journeyDate",dateBus);
-        ticketDetailsMap.put("time",timeBus);
+        ticketDetailsMap.put("from",from);
+        ticketDetailsMap.put("to",to);
+        ticketDetailsMap.put("journeyDate",date);
+        ticketDetailsMap.put("time",time);
+      //  ticketDetailsMap.put("seats",);
 
         ticketDetailsMap.put("TotalCost",total);
         ticketDetailsMap.put("seats",seats);
@@ -104,8 +105,8 @@ public class ConfirmTicket extends AppCompatActivity {
         });
 
         busNameTextView.setText(nameBus);
-        journeyDateTextView.setText(dateBus);
-        ticketIDTextView.setText(key);
+        journeyDateTextView.setText(date);
+       // ticketIDTextView.setText(key);
 
 
         homeButton = findViewById(R.id.homeButtonId);
@@ -118,6 +119,12 @@ public class ConfirmTicket extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        Intent intent=new Intent(getApplicationContext(),Pay.class);
+        startActivityForResult(intent,0);
+        return true;
     }
 
 }

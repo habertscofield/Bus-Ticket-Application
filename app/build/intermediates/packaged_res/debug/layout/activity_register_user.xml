@@ -129,7 +129,6 @@
             app:layout_constraintTop_toBottomOf="@+id/inputEmail"
             />
 
-
         <EditText
             android:id="@+id/inputPassword"
             android:layout_width="0dp"
@@ -162,8 +161,10 @@
             android:inputType="textPassword"
             android:padding="16dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inputPassword" />
+
         <androidx.appcompat.widget.AppCompatCheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

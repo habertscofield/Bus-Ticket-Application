@@ -5,10 +5,15 @@
     <string name="title_activity_maps">MapActivity</string>
     <string name="title_activity_bus_location">Map</string>
     <string name="title_activity_location">Map</string>
+    <string name="clear">Clear</string>
+    <string name="Cancel">Cancel</string>
+    <string name="gps_network_not_enabled">Gps isn\'t enable</string>
+    <string name="open_location_settings">Open location Settings</string>
     <string name="top_icon">TOP ICON</string>
     <string name="or">OR</string>
     <string name="close" />
     <string name="open" />
+    <string name="gmail_link">mailto:asavahabert99@gmail.com?subject=Need%20help!</string>
     <string name="firebase_path" translatable="false">locations</string>
     <string name="firebase_email" translatable="false">Enter your mail id</string>
     <string name="firebase_password" translatable="false">Enter your password</string>

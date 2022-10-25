@@ -4,6 +4,7 @@ package com.example.bus_ticketapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,6 +21,9 @@ public final class TicketshownBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
+  public final ImageView backarrowondeveloper;
+
+  @NonNull
   public final TextView busname;
 
   @NonNull
@@ -34,10 +38,11 @@ public final class TicketshownBinding implements ViewBinding {
   @NonNull
   public final TextView toLocation;
 
-  private TicketshownBinding(@NonNull CardView rootView, @NonNull TextView busname,
-      @NonNull TextView fromLocation, @NonNull TextView issueDate, @NonNull TextView issueTime,
-      @NonNull TextView toLocation) {
+  private TicketshownBinding(@NonNull CardView rootView, @NonNull ImageView backarrowondeveloper,
+      @NonNull TextView busname, @NonNull TextView fromLocation, @NonNull TextView issueDate,
+      @NonNull TextView issueTime, @NonNull TextView toLocation) {
     this.rootView = rootView;
+    this.backarrowondeveloper = backarrowondeveloper;
     this.busname = busname;
     this.fromLocation = fromLocation;
     this.issueDate = issueDate;
@@ -72,6 +77,12 @@ public final class TicketshownBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.backarrowondeveloper;
+      ImageView backarrowondeveloper = ViewBindings.findChildViewById(rootView, id);
+      if (backarrowondeveloper == null) {
+        break missingId;
+      }
+
       id = R.id.busname;
       TextView busname = ViewBindings.findChildViewById(rootView, id);
       if (busname == null) {
@@ -102,8 +113,8 @@ public final class TicketshownBinding implements ViewBinding {
         break missingId;
       }
 
-      return new TicketshownBinding((CardView) rootView, busname, fromLocation, issueDate,
-          issueTime, toLocation);
+      return new TicketshownBinding((CardView) rootView, backarrowondeveloper, busname,
+          fromLocation, issueDate, issueTime, toLocation);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

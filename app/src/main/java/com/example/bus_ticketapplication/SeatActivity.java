@@ -7,6 +7,7 @@ import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.GridLayout;
@@ -54,7 +55,7 @@ public class SeatActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seat);
         getSupportActionBar().setTitle("Seat Selection");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Intent intent1 = getIntent();
         Bundle extras = intent1.getExtras();
@@ -72,18 +73,7 @@ public class SeatActivity extends AppCompatActivity {
 
         firebaseAuth= FirebaseAuth.getInstance();
         databaseReference = FirebaseDatabase.getInstance().getReference();
-        mPriceRef = FirebaseDatabase.getInstance().getReference().child("Prices");
-        mPriceRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                seatPrice = Float.parseFloat(snapshot.child("price").getValue().toString());
-            }
 
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
         DatabaseReference  mBookedSeatsRef = FirebaseDatabase.getInstance().getReference().child("BusDetails").child(mBusId).child("BookedSeats").child(FirebaseAuth.getInstance().getCurrentUser().getUid());
         mBookedSeatsRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -106,11 +96,13 @@ public class SeatActivity extends AppCompatActivity {
 
 
         //Set Event
+        final String fare=getIntent().getStringExtra("BUS_FARE");
         final String fromBus=getIntent().getStringExtra("FROM_BUS");
         final String toBus=getIntent().getStringExtra("TO_BUS");
         final String nameBus = getIntent().getStringExtra("NAME_BUS");
         final String dateBus = getIntent().getStringExtra("DATE_BUS");
         final String timeBus=getIntent().getStringExtra("TIME_BUS");
+        seatPrice=Float.parseFloat(fare);
         buttonBook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -123,18 +115,19 @@ public class SeatActivity extends AppCompatActivity {
 
                     FirebaseUser user = firebaseAuth.getCurrentUser();
 
-                    Intent intent = new Intent(SeatActivity.this, Payable.class);
+                    Intent intent = new Intent(SeatActivity.this, Pay.class);
                     intent.putExtra("TOTALCOST", totalPriceI);
                     intent.putExtra("TOTALSEAT", totalBookedSeatsI);
                     intent.putExtra("SEATSET", new ArrayList<>(selectedSeats));
                     intent.putExtra("NAME_BUS", nameBus);
                     intent.putExtra("SEAT_DETAILS", seatDetails);
+                    intent.putExtra("BUS_FARE",fare);
                     intent.putExtra("BUS_ID", mBusId);
                     intent.putExtra("DATE_BUS", dateBus);
                     intent.putExtra("FROM_BUS", fromBus);
                     intent.putExtra("TO_BUS", toBus);
                     intent.putExtra("TIME_BUS", timeBus);
-                    startActivity(intent);
+                   startActivity(intent);
 
                 } else {
                     Toast.makeText(SeatActivity.this, "You have to select at least one seat to proceed", Toast.LENGTH_SHORT).show();
@@ -183,7 +176,7 @@ public class SeatActivity extends AppCompatActivity {
                         //Change background color
                         cardView.setCardBackgroundColor(getResources().getColor(R.color.green));
                         selectedSeats.add(Integer.parseInt(lTextView.getText().toString()));
-                        totatCost += (seatPrice * selectedSeats.size());
+                        totatCost +=seatPrice;
                         ++totalSeats;
                         Toast.makeText(SeatActivity.this, "You Selected Seat Number :" + (finalI + 1), Toast.LENGTH_SHORT).show();
 
@@ -191,7 +184,7 @@ public class SeatActivity extends AppCompatActivity {
                         //Change background color
                         cardView.setCardBackgroundColor(Color.parseColor("#FFFFFF"));
                         selectedSeats.remove(Integer.parseInt(lTextView.getText().toString()));
-                        totatCost -= (seatPrice * selectedSeats.size());
+                        totatCost -=seatPrice;
                         --totalSeats;
                         Toast.makeText(SeatActivity.this, "You Unselected Seat Number :" + (finalI + 1), Toast.LENGTH_SHORT).show();
                     }
@@ -200,5 +193,11 @@ public class SeatActivity extends AppCompatActivity {
                 }
             });
         }
+    }
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        Intent intent=new Intent(getApplicationContext(),BusActivity.class);
+        startActivityForResult(intent,0);
+        return true;
     }
 }

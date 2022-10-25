@@ -29,25 +29,25 @@ public final class ActivityAdminBinding implements ViewBinding {
   public final MaterialCardView addbook;
 
   @NonNull
-  public final MaterialCardView addprice;
-
-  @NonNull
   public final MaterialCardView deleteBus;
 
   @NonNull
   public final MaterialCardView logout;
 
+  @NonNull
+  public final MaterialCardView pesa;
+
   private ActivityAdminBinding(@NonNull LinearLayout rootView,
       @NonNull MaterialCardView addAdministrator, @NonNull MaterialCardView addMember,
-      @NonNull MaterialCardView addbook, @NonNull MaterialCardView addprice,
-      @NonNull MaterialCardView deleteBus, @NonNull MaterialCardView logout) {
+      @NonNull MaterialCardView addbook, @NonNull MaterialCardView deleteBus,
+      @NonNull MaterialCardView logout, @NonNull MaterialCardView pesa) {
     this.rootView = rootView;
     this.addAdministrator = addAdministrator;
     this.addMember = addMember;
     this.addbook = addbook;
-    this.addprice = addprice;
     this.deleteBus = deleteBus;
     this.logout = logout;
+    this.pesa = pesa;
   }
 
   @Override
@@ -95,12 +95,6 @@ public final class ActivityAdminBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.addprice;
-      MaterialCardView addprice = ViewBindings.findChildViewById(rootView, id);
-      if (addprice == null) {
-        break missingId;
-      }
-
       id = R.id.deleteBus;
       MaterialCardView deleteBus = ViewBindings.findChildViewById(rootView, id);
       if (deleteBus == null) {
@@ -113,8 +107,14 @@ public final class ActivityAdminBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.pesa;
+      MaterialCardView pesa = ViewBindings.findChildViewById(rootView, id);
+      if (pesa == null) {
+        break missingId;
+      }
+
       return new ActivityAdminBinding((LinearLayout) rootView, addAdministrator, addMember, addbook,
-          addprice, deleteBus, logout);
+          deleteBus, logout, pesa);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

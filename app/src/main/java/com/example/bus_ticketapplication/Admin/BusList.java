@@ -35,6 +35,7 @@ public class BusList extends ArrayAdapter<Bus2> {
 
         TextView textViewTravelsName = listViewItem.findViewById(R.id.text_view_busName);
         TextView textViewBusNumber = listViewItem.findViewById(R.id.text_view_busNumber);
+        TextView textViewBusFare=listViewItem.findViewById(R.id.text_view_busFare);
         TextView textViewDate = listViewItem.findViewById(R.id.text_view_date);
         TextView textViewTime=listViewItem.findViewById(R.id.text_view_time);
         TextView textViewFrom = listViewItem.findViewById(R.id.text_view_from);
@@ -44,11 +45,12 @@ public class BusList extends ArrayAdapter<Bus2> {
         Bus2 bus = busList.get(position);
 
         textViewTravelsName.setText(bus.getTravelsName());
-        textViewBusNumber.setText("Bus Number       : "+bus.getBusNumber());
-        textViewDate.setText("Journey Date     : "+bus.getDate());
-        textViewTime.setText("Journey Time      : "+bus.getTime());
-        textViewFrom.setText("Bus From            : "+bus.getFrom());
-        textViewTo.setText("Bus To                : "+bus.getTo());
+        textViewBusNumber.setText(bus.getBusNumber());
+        textViewBusFare.setText("Ksh."+bus.getFare());
+        textViewDate.setText(bus.getDate());
+        textViewTime.setText(bus.getTime());
+        textViewFrom.setText(bus.getFrom());
+        textViewTo.setText(bus.getTo());
 
 
         return listViewItem;

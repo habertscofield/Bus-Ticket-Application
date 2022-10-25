@@ -33,8 +33,8 @@ public class ViewBus extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_bus);
-//
-//
+        getSupportActionBar().setTitle("Available Buses");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         busList = new ArrayList<>();
 
         listViewBuses = findViewById(R.id.listViewBusDetails);
@@ -68,7 +68,7 @@ public class ViewBus extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Bus2 bus =busList.get(i);
-                showUpdateDeleteDialog(bus.getBusId(),bus.getTravelsName(),bus.getBusNumber(),bus.getDate(),bus.getFrom(),bus.getTo());
+                showUpdateDeleteDialog(bus.getBusId(),bus.getTravelsName(),bus.getBusNumber(),bus.getFare(),bus.getDate(),bus.getFrom(),bus.getTo());
             }
         });
 //        listViewBuses.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
@@ -87,7 +87,7 @@ public class ViewBus extends AppCompatActivity {
     }
 
     // update ticket fees details
-    private void showUpdateDeleteDialog(final String busId, String travelsName, String busNumber, String date, String from, String to){
+    private void showUpdateDeleteDialog(final String busId, String travelsName, String busNumber,String fare, String date, String from, String to){
         AlertDialog.Builder dialogBuilder =new AlertDialog.Builder(this);
 
         LayoutInflater inflater =getLayoutInflater();
@@ -154,10 +154,10 @@ public class ViewBus extends AppCompatActivity {
 
 
     }
-    private boolean updateBusDetail(String busId, String travelsNameI, String busNumberI, String date,String time, String from, String to){
+    private boolean updateBusDetail(String busId, String travelsNameI, String busNumberI,String fare, String date,String time, String from, String to){
         DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("BusDetails").child(busId);
 
-        Bus2 bus = new Bus2(busId, travelsNameI, busNumberI, date,time, from, to);
+        Bus2 bus = new Bus2(busId, travelsNameI, busNumberI,fare, date,time, from, to);
         databaseReference.setValue(bus);
 
         Toast.makeText(this, "Bus Detail Updated Successfully ", Toast.LENGTH_LONG).show();

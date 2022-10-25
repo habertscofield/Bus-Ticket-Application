@@ -22,10 +22,9 @@
             android:layout_marginTop="40dp"
             android:textColor="@color/black"
             android:gravity="center"
-            android:fontFamily="cursive"
+
             android:layout_marginLeft="30dp"
             android:textSize="30sp"
-            android:textStyle="bold"
             />
         <TextView
             android:layout_width="match_parent"
@@ -53,10 +52,8 @@
             android:layout_marginTop="20dp"
             android:textColor="@color/black"
             android:gravity="center"
-            android:fontFamily="cursive"
             android:layout_marginLeft="30dp"
             android:textSize="30sp"
-            android:textStyle="bold"
             />
         <TextView
             android:layout_width="match_parent"
@@ -90,19 +87,15 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ticket ID : "
             android:layout_marginTop="20dp"
             android:textColor="@color/black"
             android:gravity="center"
-            android:fontFamily="cursive"
             android:layout_marginLeft="30dp"
             android:textSize="30sp"
-            android:textStyle="bold"
             />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="ticket_ID"
             android:id="@+id/ticketID"
             android:layout_marginTop="20dp"
             android:textColor="@color/black"

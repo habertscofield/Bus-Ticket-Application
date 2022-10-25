@@ -1,4 +1,4 @@
-package com.example.bus_ticketapplication;
+package com.example.bus_ticketapplication.Maps;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -9,12 +9,12 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.FragmentActivity;
 
+import com.example.bus_ticketapplication.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -37,15 +37,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         @Override
         protected void onCreate(final Bundle savedInstanceState) {
                 super.onCreate(savedInstanceState);
-                setContentView(R.layout.activity_main);
+                setContentView(R.layout.activity_maps);
                 // Obtain the SupportMapFragment and get notified when the map is ready to be used.
                 SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                         .findFragmentById(R.id.map);
                 mapFragment.getMapAsync(this);
 
-                double distance =CalculationByDistance(currentLocation,destination);
+             // double distance =CalculationByDistance(currentLocation,destination);
 
-                Toast.makeText(getApplicationContext(),"Distance is :" +distance,Toast.LENGTH_LONG).show();
+            //   Toast.makeText(getApplicationContext(),"Distance is :" +distance,Toast.LENGTH_LONG).show();
 
 
                 locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
@@ -300,7 +300,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         public double CalculationByDistance(LatLng StartP, LatLng EndP) {
                 int Radius=6371;//radius of earth in Km
                 double lat1 = StartP.latitude;
-                double lat2 = EndP.latitude;
+            double lat2 = EndP.latitude;
                 double lon1 = StartP.longitude;
                 double lon2 = EndP.longitude;
                 double dLat = Math.toRadians(lat2-lat1);

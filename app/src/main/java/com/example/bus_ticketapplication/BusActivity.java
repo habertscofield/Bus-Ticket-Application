@@ -141,12 +141,13 @@ public class BusActivity extends AppCompatActivity implements ItemClickListener 
         String busId=bus.getBusId();
         String travelsName=bus.getTravelsName();
         String busNumber=bus.getBusNumber();
+        String fare=bus.getFare();
         String date=bus.getDate();
         String time = bus.getTime();
         String from=bus.getFrom();
         String to=bus.getTo();
 
-        Bus busDetail=new Bus(busId,travelsName,busNumber,date,time,from,to);
+        Bus busDetail=new Bus(busId,travelsName,busNumber,fare,date,time,from,to);
         FirebaseUser user1=firebaseAuth.getCurrentUser();
         databaseReference.child(user1.getUid()).child("BusBookingDetails").push().setValue(busDetail);
 

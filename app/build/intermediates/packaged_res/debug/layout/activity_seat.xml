@@ -12,7 +12,13 @@
         android:layout_width="match_parent"
         tools:context=".SeatActivity"
         >
-
+        <ImageView
+            android:layout_width="116dp"
+            android:layout_height="88dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/wheel" />
 
         <GridLayout
             android:id="@+id/mainGrid"
@@ -1501,7 +1507,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:text="Number Of Seats"
+                android:text="Number of selected Seats:"
                 android:textColor="#000"
                 android:textSize="20sp" />
 
